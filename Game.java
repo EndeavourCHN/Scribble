@@ -1,0 +1,8 @@
+package Scrabble.Scribble;
+
+public class Game {
+    public static void main(String[] args) {
+        
+    }
+    
+}
