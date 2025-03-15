@@ -1,13 +1,15 @@
 package Scrabble.Scribble;
 
-public class Players {
-    String name;
-    int score;
+public class Player {
+    private String name;
+    private int score;
 
-    public Players() {
+    public Player() {
+        this.name = null;
+        this.score = 0;
     }
 
-    public Players(String name, int score) {
+    public Player(String name, int score) {
         this.name = name;
         this.score = score;
     }
